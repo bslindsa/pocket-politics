@@ -1,7 +1,10 @@
-class card {
-    constructor(title, description, stats) {
+class Card {
+    constructor(title, description, value) {
         this.title = title;
-        this.description = description;
-        this.stats = stats;
+        this.movement = movement;
+        this.value = value;
     }
 }
+
+
+
